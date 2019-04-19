@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#44B549",
+    "navigationBarTitleText": "中秋快乐",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F39D10",
+    "enablePullDownRefresh": true,
+    "backgroundColorBottom": "#7AC4FF"
+  },
+  "tabBar": {
+    "color": "#007ACC",
+    "selectedColor": "#84D715",
+    "backgroundColor": "#EEDFC0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "SharedResources/image/c1.png",
+        "selectedIconPath": "SharedResources/image/c4.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "听歌",
+        "iconPath": "SharedResources/image/c1.png",
+        "selectedIconPath": "SharedResources/image/c4.png"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "text": "喜欢你",
+        "iconPath": "SharedResources/image/cat.png",
+        "selectedIconPath": "SharedResources/image/cat.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
