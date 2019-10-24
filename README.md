@@ -1,2 +1,2 @@
 # WeChat
-微信小程序
+author wuwenxiang 
